@@ -1,0 +1,33 @@
+//Game -  Dodge the balls.
+
+How to play:
+    arrow UP key - upward acceleration of 80 m/s^2    
+    arrow DOWN key - break / downward acceleration of 50 m/s^2
+    arrow RIGHT key - right acceleration of 200 m/s^2  
+    arrow LEFT key - left acceleration of 200 m/s^2  
+
+    * Getting hit by a ball applies damage to the rocket. The damage can keep increase
+        if the rocket is in contact with the ball longer.
+    * If the rocket falls under the window frame, rocket is crashed, and the game ends.
+    * If max damgage(5) is reached, the game ends and displays the amount of time you have survived.
+    
+    
+    * The rocket cannot move beyond the side walls.
+    * Balls will bounce back from side walls.
+
+    **************************************************************************************
+    * If the rocket hits ceiling, right or left wall, it will bounce back with the magnitude
+        proportional to the velocity of rocket hitting the wall.
+        This does not apply damage to the rocket.
+    * Ball bounces off the rocket, but this does not affect the rocket's motion.
+    **************************************************************************************
+
+    ESC key to terminate the game.
+    
+Settings:
+    - Normal gravity constantly applied to the rocket.
+    - Random number of Balls fall down at random location with random velocities and normal gravity applied.
+    - The balls fallen under the window frame jump back to top and keep falling.
+    - Max vertical velocity of balls = -150 m/s.
+    - Based on the damage, the rocket loses wings, but has no effect in control.
+    - Rocket shoots red boost when user presses up arrow key.
